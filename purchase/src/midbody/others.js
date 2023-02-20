@@ -8,10 +8,19 @@ function Mid ()
         <div className='left_aligned'>
            <button > Export CSV</button>
         </div>
+
         <div className='right_aligned'>
             <input type="text" placeholder='Search'/>
-            <input type="submit" placeholder='Search' id ='btn_search'/>
-            
+            <div className='dropdown'>
+                <form action="/action_page.php">
+                            
+                                    <select name="cars" id="cars">
+                                        <option value="by type">By type </option>
+                                        <option value="by status">By Status</option>
+                                    </select>
+                                    <input type="submit" value="Search" id ="btn-search"/>
+                </form>
+            </div>    
         </div>
        
     </div>
