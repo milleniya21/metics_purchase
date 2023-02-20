@@ -9,8 +9,8 @@ function Mid ()
            <button > Export CSV</button>
         </div>
         <div className='right_aligned'>
-            <input type="search" placeholder='Search'/>
-            <input type="Search"/>
+            <input type="text" placeholder='Search'/>
+            <input type="submit" placeholder='Search' id ='btn_search'/>
             
         </div>
        

@@ -1,5 +1,6 @@
 .others{
     background-color: rgb(216, 214, 214);
+    display: flex;
 }
 
 button{
@@ -16,8 +17,9 @@ button{
     border-radius: 10px;
     
 }
+
 .right_aligned
 {
-    display: flex;
+    
     justify-items: end;
 }
