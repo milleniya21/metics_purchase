@@ -1,0 +1,23 @@
+.others{
+    background-color: rgb(216, 214, 214);
+}
+
+button{
+    margin: 20px;
+    background-color: rgb(3, 3, 78);
+    color: white;
+    padding-top: 15px;
+    padding-bottom:15px ;
+    padding-left: 10px;
+    padding-right:35px ;
+    justify-items: start;
+    justify-content: space-between;
+    border: none;
+    border-radius: 10px;
+    
+}
+.right_aligned
+{
+    display: flex;
+    justify-items: end;
+}
