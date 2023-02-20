@@ -29,3 +29,12 @@ button{
     border: none;
     border-radius: 10px; 
 }
+#search_bar 
+{
+padding: 10px;
+border-color: 1px solid gray;
+border-radius: 10px;
+}
+#sort {
+     padding: 5px;
+}

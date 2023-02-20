@@ -10,11 +10,11 @@ function Mid ()
         </div>
 
         <div className='right_aligned'>
-            <input type="text" placeholder='Search'/>
+            <input type="text" placeholder='Search'id ="search_bar"/>
             <div className='dropdown'>
                 <form action="/action_page.php">
                             
-                                    <select name="cars" id="cars">
+                                    <select name="options" id="sort">
                                         <option value="by type">By type </option>
                                         <option value="by status">By Status</option>
                                     </select>
