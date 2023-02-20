@@ -1,5 +1,6 @@
 
 import Header from './header/header';
+import Mid from './midbody/others';
  import Basic from './table/Basic';
 import Title from './title/title';
 
@@ -10,7 +11,9 @@ function App() {
     <div className="App">
        <Header/>
        <Title/>  
+       <Mid/>
        <Basic/> 
+       
     </div>
   );
 }
