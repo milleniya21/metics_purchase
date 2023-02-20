@@ -1,16 +1,26 @@
-
-table  {
-  margin: 10px;
+table
+{
   width: 100%;
+  background-color: white;
+}
+.container {
+  background-color: rgb(216, 214, 214);
+}
+.table_design  {
+  margin: 10px;
+ 
   border-collapse: collapse;
   border:1px solid rgb(143, 139, 139);
   padding: 10px;
   border-radius: 20px;
+  align-items: center;
 }
 th , td
 {
    
     padding: 10px;
+    
+   
 }
  th
 
@@ -18,10 +28,12 @@ th , td
    margin-right: 0;
     background-color: white;
     color: rgb(165, 157, 157);
+    align-items: center;
     
  }
  tr:nth-child(even) {
 
-  background-color: rgb(182, 180, 180)
-  
+  background-color: rgb(231, 229, 229);
+ 
+
   }

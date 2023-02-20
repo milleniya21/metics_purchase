@@ -1,6 +1,17 @@
-.others{
+.other{
     background-color: rgb(216, 214, 214);
+    
+    
+}
+.row{
+
+    
     display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
 }
 button{
     
@@ -9,32 +20,47 @@ button{
     padding-top: 15px;
     padding-bottom:15px ;
     padding-left: 10px;
-    padding-right:35px ;
-    justify-items: start; 
+    padding-right:45px ; 
     border: none;
     border-radius: 10px;   
+    margin: 10px;
+ 
 }
 .right_aligned
 {
+    display: flex;
+    margin-right: 0;
     
-    justify-items: end;
+}
+
+#search_bar 
+{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-left: 10px;
+    padding-right:40px ;
+    border-color: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+#sort {
+    border-color: 1px solid gray;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-left: 10px;
+    padding-right:45px ;
+    margin: 10px;
 }
 #btn-search {
     background-color: rgb(3, 3, 78);
     color: white;
     padding-top: 10px;
     padding-bottom:10px ;
-    padding-left: 10px;
-    padding-right:35px ;
+    padding-left: 20px;
+    padding-right:20px ;
     border: none;
     border-radius: 10px; 
-}
-#search_bar 
-{
-padding: 10px;
-border-color: 1px solid gray;
-border-radius: 10px;
-}
-#sort {
-     padding: 5px;
+    margin: 10px;
 }

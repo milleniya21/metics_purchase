@@ -4,6 +4,7 @@ import './table.css';
 function Basic ()
 {
   return (
+    <div className='container'>
     <div className='table_design'>
         <table >
             <tr>
@@ -59,6 +60,7 @@ function Basic ()
             
         </table>
 
+    </div>
     </div>
 
   );
